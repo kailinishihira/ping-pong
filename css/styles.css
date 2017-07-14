@@ -1,4 +1,6 @@
 body {
+  height: 100%;
+  margin: 0;
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
   font-weight: bold;
@@ -15,7 +17,6 @@ h1 {
   font-size: 100px;
   font-weight: bolder;
 }
-
 
 h2 {
   font-size: 40px;
@@ -35,9 +36,18 @@ img {
 }
 
 .output {
-  width: 20em;
+  width: 15em;
   word-wrap: break-word;
   font-size: 30px;
   font-size: 30px;
   font-weight: bold;
+}
+
+.about {
+  font-family: 'Russo One', sans-serif;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  color: #717375
 }
