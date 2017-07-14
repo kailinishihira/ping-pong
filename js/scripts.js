@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     var userInput = parseInt($("#numbers").val());
     var userOutput = pingPongOutput(userInput);
-    $(".output").append(userOutput);
+    $(".output").text(userOutput);
     });
   });
 

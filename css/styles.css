@@ -1,8 +1,31 @@
+body {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .jumbotron {
-  background-image: : url("girl.png");
   background-size: cover;
   background-color: transparent;
   text-align: center;
+}
+
+h1 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+
+h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.btn {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: red;
 }
 
 img {
@@ -12,9 +35,9 @@ img {
 }
 
 .output {
-  width: 30em;
+  width: 20em;
   word-wrap: break-word;
-  font-size: 20px;
-
-
+  font-size: 30px;
+  font-size: 30px;
+  font-weight: bold;
 }
