@@ -12,7 +12,7 @@
     <title>Ping-Pong</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="jumbotron">
         <h1>Let's Play Ping-Pong!</h1>
       </div>
@@ -25,17 +25,24 @@
         <li>Numbers divisible by 3 & 5 become "ping-pong"</li>
       </ol>
 
-      <form id="ping-pong">
-        <div class="form-group">
-          <label for="user-input">Enter your number here:</label>
-          <input class="form-control" id="numbers" type="number">
-          <button type="submit" class="btn btn-danger">Let's Play!</button>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="ping-pong">
+            <div class="form-group">
+              <label for="user-input">Enter your number here:</label>
+              <input class="form-control" id="numbers" type="number">
+              <button type="submit" class="btn btn-danger">Let's Play!</button>
+            </div>
+          </form>
         </div>
-      </form>
 
-      <div class="well">
-        <p class="output">
-        </p>
+        <div class="col-md-6">
+          <div class="well">
+            <h1><a href="img/girl2.png"></h1>
+            <p class="output">
+            </p>
+          </div>
+        </div>
       </div>
 
     </div>
