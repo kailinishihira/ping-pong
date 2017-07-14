@@ -8,7 +8,7 @@ body {
 
 .jumbotron {
   background-size: cover;
-  background-color: transparent;
+  background-color: #9478bf;
   text-align: center;
 }
 
@@ -36,7 +36,7 @@ img {
 }
 
 .output {
-  width: 15em;
+  width: 20em;
   word-wrap: break-word;
   font-size: 30px;
   font-size: 30px;
